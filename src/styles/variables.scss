@@ -1,0 +1,41 @@
+$color-white: #FFFFFF;
+$color-gray-lighter: #F8F8FB;
+$color-gray-light: #F3F4F9;
+$color-gray: #E2E4EA;
+$color-gray-dark: #9A9DA4;
+$color-gray-darker: #63666E;
+$color-gray-darkest: #33373C;
+$color-black: #1A1A1A;
+$color-blue: #1952E1;
+$color-blue-darker: #1649CA;
+$color-blue-darkest: #2E3E6E;
+
+$border-radius: 4px;
+
+$font-weight-normal: 400;
+$font-weight-bold: 500;
+$font-weight-bolder: 600;
+
+$font-size-small: 12px;
+$font-size-medium: 14px;
+$font-size-large: 24px;
+
+$line-height-small: 16px;
+$line-height-medium: 24px;
+$line-height-large: 32px;
+
+@mixin font-small {
+  font-size: $font-size-small;
+  line-height: $line-height-small;
+}
+
+@mixin font-medium {
+  font-size: $font-size-medium;
+  line-height: $line-height-medium;
+}
+
+@mixin font-large {
+  font-size: $font-size-large;
+  line-height: $line-height-large;
+}
+

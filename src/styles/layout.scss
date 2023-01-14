@@ -1,0 +1,28 @@
+body {
+  font-family: 'Inter';
+  min-height: 100vh;
+  display: flex;
+  background: $color-gray-light;
+}
+
+#app {
+  margin: 32px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  #main {
+    flex-grow: 1;
+  }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
