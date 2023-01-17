@@ -5,7 +5,7 @@
 <template>
   <header class="app-header">
     <div class="app-header-title">
-      Stops Board
+      Timetable
     </div>
     <nav class="app-header-nav">
       <ul class="navbar-nav">
@@ -14,7 +14,7 @@
               :to="{ name: RouteName.BUS_LINES }"
               class="app-header-nav__link"
           >
-            Lines
+            Bus Lines
           </router-link>
         </li>
         <li class="nav-item">

@@ -119,7 +119,7 @@
               v-else
               class="details-line__placeholder"
           >
-            Please select a line
+            Please select the bus line first
           </div>
         </transition>
       </div>
@@ -152,7 +152,7 @@
               v-else
               class="details-stop__placeholder"
           >
-            {{ selectedLine ? 'Please select a stop' : 'Please select a line'}}
+            {{ selectedLine ? 'Please select the bus stop first' : 'Please select the bus line first'}}
           </div>
         </transition>
       </div>
